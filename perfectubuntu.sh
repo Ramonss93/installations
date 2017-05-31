@@ -9,6 +9,9 @@ sudo apt install geany
 #OKULAR
 sudo apt install okular
 
+#INKSCAPE
+sudo apt install inkscape
+
 #UGENE
 sudo apt install ugene
 
