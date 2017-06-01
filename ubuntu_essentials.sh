@@ -1,10 +1,13 @@
-#Install essential tools in Ubuntu 16
+#Install essential tools for Ubuntu 16.04 LTS
 
 #GIT
 sudo apt install git
 
 #GEANY
 sudo apt install geany
+
+#MENDELEY DESKTOP
+sudo apt install mendeleydesktop
 
 #OKULAR
 sudo apt install okular
