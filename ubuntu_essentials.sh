@@ -7,7 +7,11 @@ sudo apt install git
 sudo apt install geany
 
 #MENDELEY DESKTOP
-sudo apt install mendeleydesktop
+wget -P ~/Downloads/ http://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.17.9-linux-x86_64.tar.bz2
+cd ~/Downloads/
+bzip2 -cd mendeleydesktop-1.17.9-linux-x86_64.tar.bz2 | tar xvf -
+cd mendeleydesktop-1.17.9-linux-x86_64
+./bin/mendeleydesktop
 
 #OKULAR
 sudo apt install okular
