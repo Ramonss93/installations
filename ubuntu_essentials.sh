@@ -56,3 +56,7 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB31
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update
 sudo apt-get install spotify-client
+
+#VSCODE
+wget ~/Downloads/https://az764295.vo.msecnd.net/stable/376c52b955428d205459bea6619fc161fc8faacf/code_1.13.0-1496940180_amd64.deb
+sudo dpkg -i ~/Downloads/code_1.13.0-1496940180_amd64.deb
