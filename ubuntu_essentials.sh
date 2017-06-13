@@ -3,6 +3,9 @@
 #GIT
 sudo apt install git
 
+#VIM
+sudo apt install vim
+
 #GEANY
 sudo apt install geany
 
