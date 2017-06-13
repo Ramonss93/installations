@@ -31,14 +31,25 @@ sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linu
 sudo apt-get update
 sudo apt-get install r-base
 
+#BIOINFORMATICS
+
 #BLAST
 sudo apt install ncbi-blast++
+
+#FASTX-toolkit
+sudo apt install fastx-toolkit
 
 #SAMTOOLS
 sudo apt install samtools
 
 #VCFtools
 sudo apt install vcftools
+
+#BWA
+sudo apt install bwa
+
+#Bowtie2
+sudo apt install bowtie2
 
 #SPOTIFY
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
