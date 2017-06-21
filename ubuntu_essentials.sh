@@ -6,6 +6,9 @@ sudo apt install git
 #VIM
 sudo apt install vim
 
+#SCREEN
+sudo apt install screen
+
 #GEANY
 sudo apt install geany
 
