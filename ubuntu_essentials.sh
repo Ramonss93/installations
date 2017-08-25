@@ -66,3 +66,24 @@ sudo apt-get install spotify-client
 #VSCODE
 wget ~/Downloads/https://az764295.vo.msecnd.net/stable/376c52b955428d205459bea6619fc161fc8faacf/code_1.13.0-1496940180_amd64.deb
 sudo dpkg -i ~/Downloads/code_1.13.0-1496940180_amd64.deb
+
+#CINDEX
+sudo apt-get install python3 &&
+     apt-get install python3-dev &&
+     apt-get install python3-pip &&
+     apt-get install python3-setuptools &&
+     apt-get install python3-tk &&
+     apt-get install python3-matplotlib &&
+     apt install graphviz &&
+     apt-get install graphviz libgraphviz-dev pkg-config &&
+     pip3 install pygraphviz --install-option="--include-path=/usr/include/graphviz" --install-option="--library-path=/usr/lib/graphviz/" &&
+     apt-get install python3-pip &&
+     pip3 install --upgrade pip &&
+     pip3 install graphviz &&
+     pip3 install networkx &&
+     pip3 install numpy &&
+     pip3 install scipy &&
+     pip3 install pygraphviz &&
+     pip3 install scipy &&
+     pip3 install biopython &&
+     python3 -m pip install biopython --upgrade
