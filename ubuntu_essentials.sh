@@ -1,7 +1,9 @@
 #Install essential tools for Ubuntu 16.04 LTS
 
-#GIT
-sudo apt install git
+#JAVA ORACLE 9
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java9-installer
 
 #VIM
 sudo apt install vim
