@@ -1,9 +1,11 @@
-#Install essential tools for Ubuntu 16.04 LTS
+#Install essential tools for Ubuntu 16.04 LTS / Linux Mint 18
 
-#JAVA ORACLE 9
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java9-installer
+#JAVA JDK 8
+sudo apt-get install openjdk-8-jdk
+
+#ATOM
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt update; sudo apt install atom
 
 #VIM
 sudo apt install vim
@@ -16,13 +18,6 @@ sudo apt-get install python-matplotlib
 
 #GEANY
 sudo apt install geany
-
-#MENDELEY DESKTOP
-wget -P ~/Downloads/ http://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.17.9-linux-x86_64.tar.bz2
-cd ~/Downloads/
-bzip2 -cd mendeleydesktop-1.17.9-linux-x86_64.tar.bz2 | tar xvf -
-cd mendeleydesktop-1.17.9-linux-x86_64
-./bin/mendeleydesktop
 
 #OKULAR
 sudo apt install okular
@@ -89,3 +84,10 @@ sudo apt-get install python3 &&
      pip3 install scipy &&
      pip3 install biopython &&
      python3 -m pip install biopython --upgrade
+
+#MENDELEY DESKTOP
+wget -P ~/Downloads/ http://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.17.9-linux-x86_64.tar.bz2
+cd ~/Downloads/
+bzip2 -cd mendeleydesktop-1.17.9-linux-x86_64.tar.bz2 | tar xvf -
+cd mendeleydesktop-1.17.9-linux-x86_64
+./bin/mendeleydesktop
