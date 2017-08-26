@@ -16,9 +16,6 @@ sudo apt install vim
 #SCREEN
 sudo apt install screen
 
-#PYTHON MATPLOTLIB
-sudo apt-get install python-matplotlib
-
 #GEANY
 sudo apt install geany
 
