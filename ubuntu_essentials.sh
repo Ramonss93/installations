@@ -3,6 +3,9 @@
 #JAVA JDK 8
 sudo apt-get install openjdk-8-jdk
 
+#HTOP
+sudo apt-get install htop
+
 #ATOM
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt update; sudo apt install atom
