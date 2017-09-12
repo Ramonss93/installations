@@ -3,6 +3,9 @@
 #JAVA JDK 8
 sudo apt-get install openjdk-8-jdk
 
+#G++
+sudo apt install g++
+
 #HTOP
 sudo apt-get install htop
 
