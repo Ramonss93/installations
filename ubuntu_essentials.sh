@@ -88,6 +88,12 @@ sudo apt-get install python3 &&
      pip3 install biopython &&
      python3 -m pip install biopython --upgrade
 
+#aliview
+wget -P ~/Downloads/ http://ormbunkar.se/aliview/downloads/linux/linux-version-1.18.1/aliview.install.run
+sudo chmod +x ~/Downloads/aliview.install.run
+cd ~/Downloads/
+sudo ./aliview.install.run
+
 #MENDELEY DESKTOP
 wget -P ~/Downloads/ http://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.17.9-linux-x86_64.tar.bz2
 cd ~/Downloads/
